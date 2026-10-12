@@ -1,0 +1,36 @@
+# Alle Beträge sind virtuelle Münzen auf diesem Server. Es gibt keine Echtgeld-Funktion.
+starting-balance: 1000
+maximum-bet: 1000000
+
+# 20 Ticks entsprechen einer Sekunde. 40 bis 80 Ticks = zufällig 2 bis 4 Sekunden.
+spin-min-ticks: 40
+spin-max-ticks: 80
+spin-update-ticks: 2
+
+# Die Gewichte steuern die Zufallsauswahl jeder einzelnen Walze.
+# Der Multiplikator ist die gesamte Auszahlung inklusive des bereits abgezogenen Einsatzes.
+symbols:
+  COAL_ORE:
+    name: Kohleerz
+    weight: 65
+    multiplier: 2
+  IRON_ORE:
+    name: Eisenerz
+    weight: 15
+    multiplier: 3
+  GOLD_ORE:
+    name: Golderz
+    weight: 10
+    multiplier: 5
+  DIAMOND_ORE:
+    name: Diamanterz
+    weight: 6
+    multiplier: 8
+  EMERALD_ORE:
+    name: Smaragderz
+    weight: 3
+    multiplier: 15
+  ANCIENT_DEBRIS:
+    name: Antiker Schrott
+    weight: 1
+    multiplier: 30

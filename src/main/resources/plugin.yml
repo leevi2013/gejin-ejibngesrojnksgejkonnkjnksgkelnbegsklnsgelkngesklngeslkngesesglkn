@@ -1,0 +1,13 @@
+name: GambaSlots
+version: 1.0.0
+main: de.example.gambaslots.GambaSlotsPlugin
+api-version: '1.21.11'
+description: Eine virtuelle Erz-Slotmaschine mit Chest-GUI.
+commands:
+  gamba:
+    description: Öffnet die Gamba-Slotmaschine.
+    usage: /gamba [bet <betrag>|give <spieler> <betrag>|reload]
+permissions:
+  gamba.admin:
+    description: Erlaubt das Verwalten der Gamba-Konfiguration und Münzen.
+    default: op
